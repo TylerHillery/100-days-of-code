@@ -1,5 +1,6 @@
 # 100 Days Of Code - Log
 
+<!--- This what was oringally in the log file. I am going to keep it as a reference for markdown syntax.
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
@@ -27,4 +28,17 @@
 
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)-->
+### Day 1: Monday January 3rd 2021
+
+**Today's Progress**: I went through the SQL & Python exercises on W3Schools. I also checked out HackerRank & Exercism. 
+
+**Thoughts**: I am excited to began my #100DaysOfCode journey. Two main skills I want to focus on is Python & SQL. I may also learn a little bit about Web Dev (HTML,CSS,JS). I have a learning plan created on Trello (See attached link below). I plan on mixxing in resources like CodeWars, HackerRank to get additional practice.
+
+**Links**
+1. [W3Schools](https://my-learning.w3schools.com/)
+2. [HackerRank](https://www.hackerrank.com/TheRealTHill)
+3. [Excercism](https://exercism.org/profiles/TylerHillery)
+4. [CodeWars](https://www.codewars.com/users/TylerHillery)
+5. [Trello Learning Plan](https://trello.com/b/z8s7uGR0/data-science-self-learning-journey)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
