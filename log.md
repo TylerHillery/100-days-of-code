@@ -31,9 +31,15 @@
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)-->
 ### Day 1: Monday January 3rd 2021
 
-**Today's Progress**: I went through the SQL & Python exercises on W3Schools. I also checked out HackerRank & Exercism. 
+**Today's Progress**: I went through the SQL & Python exercises on W3Schools. I also checked out HackerRank & Exercism. Lastly, I made some progress on the Introduction to Python Programming course I am taking on Edx. Currently I am on the loops chapter 3.3. Below is a code snippet of a nested for loop I had to write to print the beats in a song based on the number of measures. 
+ 
+ ```python
+ for i in range(1,measures+1):
+    for j in range(1,beats_per_measure+1):
+        print(j)
+ ```
 
-**Thoughts**: I am excited to began my #100DaysOfCode journey. Two main skills I want to focus on is Python & SQL. I may also learn a little bit about Web Dev (HTML,CSS,JS). I have a learning plan created on Trello (See attached link below). I plan on mixxing in resources like CodeWars, HackerRank to get additional practice.
+**Thoughts**: I am excited to began my #100DaysOfCode journey. Two main skills I want to focus on is Python & SQL. I may also learn a little bit about Web Dev (HTML,CSS,JS). I have a learning plan created on Trello (See attached link below). I plan on mixing in resources like CodeWars, HackerRank to get additional practice.
 
 **Links**
 1. [W3Schools](https://my-learning.w3schools.com/)
@@ -41,4 +47,5 @@
 3. [Excercism](https://exercism.org/profiles/TylerHillery)
 4. [CodeWars](https://www.codewars.com/users/TylerHillery)
 5. [Trello Learning Plan](https://trello.com/b/z8s7uGR0/data-science-self-learning-journey)
+6. [Intro To Python Programming](https://www.edx.org/professional-certificate/introduction-to-python-programming)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
