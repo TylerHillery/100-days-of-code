@@ -31,12 +31,21 @@
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)-->
 ### Day 1: Monday January 3rd 2021
 
-**Today's Progress**: I went through the SQL & Python exercises on W3Schools. I also checked out HackerRank & Exercism. Lastly, I made some progress on the Introduction to Python Programming course I am taking on Edx. Currently I am on the loops chapter 3.3. Below is a code snippet of a nested for loop I had to write to print the beats in a song based on the number of measures. 
+**Today's Progress**: I went through the SQL & Python exercises on W3Schools. I also checked out HackerRank & Exercism. Lastly, I made some progress on the Introduction to Python Programming course I am taking on Edx. Currently I am on the loops chapter 3.3. Below is are some code snippets from that class for some problems I had to solve. 
  
  ```python
+ #3.3.5 Coding Excercise 1
  for i in range(1,measures+1):
     for j in range(1,beats_per_measure+1):
         print(j)
+ 
+ #3.3.5 Coding Excercise 2
+line_counter = 0 
+while line_counter < lines_of_sanity:
+    for i in lyrics:
+        print(i)
+        line_counter += 1
+print("MAKE IT STOP") 
  ```
 
 **Thoughts**: I am excited to began my #100DaysOfCode journey. Two main skills I want to focus on is Python & SQL. I may also learn a little bit about Web Dev (HTML,CSS,JS). I have a learning plan created on Trello (See attached link below). I plan on mixing in resources like CodeWars, HackerRank to get additional practice.
