@@ -58,7 +58,7 @@ print("MAKE IT STOP")
 5. [Trello Learning Plan](https://trello.com/b/z8s7uGR0/data-science-self-learning-journey)
 6. [Intro To Python Programming](https://www.edx.org/professional-certificate/introduction-to-python-programming)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Day 1: Tuesday January 4th 2021 🐧
+### Day 2: Tuesday January 4th 2021 🐧
 
 **Today's Progress**: Today took a weird turn & I fell down a rabbit hole of learning linux and bash. I installed the windows linux subsystem and started playing around in the terminal. Below are some common commands in Linux. 
 
