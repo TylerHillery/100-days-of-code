@@ -107,7 +107,7 @@ Writing markdown files in vs code is nice because I have the [Code Spell Checker
 - [Git it? How to use Git and Github by Fireship](https://www.youtube.com/watch?v=HkdAHXoRtos)
 - [Git explained in 100 seconds by Fireship](https://www.youtube.com/watch?v=hwP7WQkmECE&t=4s)
 
-Now I would like to dive into my thoughts on python virtual environments. From my understanding it is important to use virtual environments because package versions can change which can impact how to use that package and if you install & update packages in your global environment projects that rely on the old version. 
+Now I would like to dive into my thoughts on python virtual environments. From my understanding it is important to use virtual environments because package versions can change which can impact how to use that package and if you install & update packages in your global environment projects that rely on the old version may not work.
 
 ```python
 #Using WSL with Ubuntu distro
