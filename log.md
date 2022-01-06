@@ -162,6 +162,33 @@ Shortly after I ran this I realized that this does not just add "This is a test"
 ---
 ### Day 4: Thursday January 6th - Back to Python 🐍
 
-**Progress**
+**Progress**: I made lots of progresss on the Intro to Python Programming course I am currently taking on EdX. I just finished chapter 3.3 on loops. Below are couple answers to some problem that I am proud of the solution I came up with on my own. 
 
-**Thoughts**
+```python 
+#Coding Problem 3.3.15 (Advanced)
+for i in range (1,len(mystery_string)+1):
+    print(mystery_string[:i])
+
+#Coding Problem 3.3.16 (Advanced)
+count = 0
+for index, char in enumerate(mystery_string):
+    if char == "c":
+        if mystery_string[index:index+3] == "cat":
+            count += 1
+print(count) 
+```
+
+**Thoughts**: Things finally feel like they are starting to click. I truly feel that I am able to code now. I have been off and on about programming for awhile now but lately I feel like I am really understanding how things work. The key for me was to keep at it. 
+
+I can't express enough how much help this #100DaysOfCode challenge has been helping. For one it really holds me accountable. Secondly, I have find it very helpful to write about what I am learning. It makes me think about what I learned & that process right there is what helps reenforce those concepts. Looking forward to keep on keeping on.
+
+Below are some other resources/articles that I checked out today. 
+
+**Links** 
+- [The Odin Project](https://www.theodinproject.com/)
+- [Replit](https://replit.com/)
+- [Free Code Camp Game](https://freecodecamp.itch.io/learn-to-code-rpg)
+- [FCC Data Science Curriculum (Super Exicting!)](https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/)
+- [FCC Relation DB Course](https://www.freecodecamp.org/news/how-to-run-freecodecamps-relational-databases-curriculum-using-docker-vscode-and-coderoad/)
+- [FCC's future which is awesome](https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/)
+---
