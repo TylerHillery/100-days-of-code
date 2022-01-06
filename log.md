@@ -99,8 +99,9 @@ git stash pop #bring back those changes
 git merge branch #merge branch. Use --squash flag to put all commits into one.
 git remote add origin #Connect local repo to remote repo 
 git push origin branch #push changes to remote repo
+git branch -d branch #delete branch
 ```
-Writing markdown files in vs code nice because I have the [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker) extension installed to help with typos. Also if you hit ```Ctrl+Shift+V``` in vs code you can preview your markdown file. I like to split screen the preview file with the raw file so I can watch my changes be rendered in real time. 
+Writing markdown files in vs code is nice because I have the [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker) extension installed to help with typos. Also if you hit ```Ctrl+Shift+V``` in vs code you can preview your markdown file. I like to split screen the preview file with the raw file so I can watch my changes be rendered in real time. 
 
 **Git Resources**
 - [Git it? How to use Git and Github by Fireship](https://www.youtube.com/watch?v=HkdAHXoRtos)
@@ -140,3 +141,22 @@ After this experience of using the WSL and the git bash terminal I think it is g
 **VENV Resources**
 - [Python Tutorial: VENV (Linux)](https://www.youtube.com/watch?v=Kg1Yvry_Ydk)
 - [VS Code Setting up python venv](https://www.youtube.com/watch?v=-nh9rCzPJ20&t=2137s)
+
+Lastly to wrap it up I am going to talk a little bit about PyGitHub. It was my first experience ever writing code that interacts with and API. It was cool to see how it works. Below is a code snippet I got from the docs that allowed me to update a file on my repo. 
+
+```python
+pip install PyGitHub #First created a venv and installed PyGithub
+from github import Github
+
+g = Github("API KEY")
+
+repo = g.get_repo("TylerHillery/100-days-of-code")
+contents = repo.get_contents("log.md")
+repo.update_file(contents.path, "more test", "This is a test",contents.sha, branch="master")
+```
+Shortly after I ran this I realized that this does not just add "This is a test" at the bottom of the file it replaces the whole thing. The "more test" parameter was the title of the commit. Lesson learned.
+
+**Additional Resources**
+- [PyGithub Docs](https://pygithub.readthedocs.io/en/latest/index.html)
+- [Take the 2022 Become-a-Dev Challenge](https://www.freecodecamp.org/news/2022-become-a-dev-new-years-resolution-challenge/)
+---
