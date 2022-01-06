@@ -160,3 +160,8 @@ Shortly after I ran this I realized that this does not just add "This is a test"
 - [PyGithub Docs](https://pygithub.readthedocs.io/en/latest/index.html)
 - [Take the 2022 Become-a-Dev Challenge](https://www.freecodecamp.org/news/2022-become-a-dev-new-years-resolution-challenge/)
 ---
+### Day 4: Thursday January 6th - Back to Python 🐍
+
+**Progress**
+
+**Thoughts**
