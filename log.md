@@ -192,3 +192,8 @@ Below are some other resources/articles that I checked out today.
 - [FCC Relation DB Course](https://www.freecodecamp.org/news/how-to-run-freecodecamps-relational-databases-curriculum-using-docker-vscode-and-coderoad/)
 - [FCC's future which is awesome](https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/)
 ---
+### Day 5: Friday January 7th
+
+**Progress**:
+
+**Thoughts**:
