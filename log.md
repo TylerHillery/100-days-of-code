@@ -188,12 +188,29 @@ Below are some other resources/articles that I checked out today.
 - [The Odin Project](https://www.theodinproject.com/)
 - [Replit](https://replit.com/)
 - [Free Code Camp Game](https://freecodecamp.itch.io/learn-to-code-rpg)
-- [FCC Data Science Curriculum (Super Exicting!)](https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/)
+- [FCC Data Science Curriculum (Super Exciting!)](https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/)
 - [FCC Relation DB Course](https://www.freecodecamp.org/news/how-to-run-freecodecamps-relational-databases-curriculum-using-docker-vscode-and-coderoad/)
 - [FCC's future which is awesome](https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/)
 ---
-### Day 5: Friday January 7th
+### Day 5: Friday January 7th - Web Development, htmx & APIs 🕸️
 
-**Progress**:
+**Progress**: Lots of progress was made on day 5. I dipped my toes into learning more about how the web works & other concepts such as APIs & htmx. I will think some of the resources and tutorials I started today. 
 
-**Thoughts**:
+**Thoughts**: Learning about web development has been fun. My reason for wanting to learn more about web development is because I want to build my own portfolio website. Also I feel that it would make a for a great project to work on during my #100DaysOfCode. I am a big fan of the [Jamstack](https://jamstack.org/) which is all about pre-rendering by generating the HTML on build opposed to server side rendering which generates the HTML on demand. This makes it easy to deploy the site onto a content deliver network (CDN) like Github Pages or Netlify. Also, I plan on using a static site generator called [Pelican](https://docs.getpelican.com/en/latest/) which is a tool that generates HTML pages based on raw data from templates (A template is a reusable format for web content; developers use templates to avoid writing the same formatting over and over.) and given content source (e.g. markdown files).I am looking forward to following this [tutorial](https://shahayush.com/categories/pelican-for-website-creation/) to get my website started. Stay tuned! 
+
+Well that is enough about the jamstack, what the heck is htmx and why was I learning about it? Well I came across htmx because I heard allows you to write less javascript. I have nothing against javascript but being a fairly new programming & python I'm not really at a point yet where I really want to start branching out to other languages and learning front end frameworks like react. I enjoy python and I want to use it as much as possible when I can. 
+
+A quote from [htmx.org](https://htmx.org/)
+>htmx allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
+
+This intrigued me because when static sites may not be enough for a web app I am trying to accomplish. I think using htmx for my front end could be very beneficial because it allows my to write the back end in a python web framework (flask, django or fastapi) and keep the front end in HTML and CSS without having to worry about javascript. 
+
+Lastly, while I was researching about web development the term API was coming up a lot. While I get high level that API stands for application programming interface and this is what allows a user to communicate with different applications, I didn't understand how they work. Especially because htmx was encouraging building APIs that deliver HTML opposed to JSON & I kept hearing about GraphQL and how it enables users to request specific data. This led me to a great tutorial called [Python API Development](https://www.youtube.com/watch?v=0sOvCWFmrtA). I have been working through this tutorial so far and I am learning a lot. Looking forward to picking it up again tomorrow. 
+
+**Links**:
+- [What is the Jamstack?](https://jamstack.org/what-is-jamstack)
+- [htmx course](https://training.talkpython.fm/courses/htmx-flask-modern-python-web-apps-hold-the-javascript)
+- [htmx - Clean, Dynamic HTML pages](https://www.youtube.com/watch?v=4wjqsPtj2QY)
+- [Dynamic HTML with htmx](https://devmode.fm/episodes/dynamic-html-with-htmx#2318)
+- [RESTful APIs in 100 seconds](https://www.youtube.com/watch?v=-MTSQjw5DrM&t=176s)
+
