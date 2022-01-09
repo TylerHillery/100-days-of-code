@@ -222,11 +222,11 @@ Lastly, while I was researching about web development the term API was coming up
 
 ```python 
 #3.4.6 Coding Exercise 1
-def snowed_in(tempature, weather, is_celsius = True):
+def snowed_in(temperature, weather, is_celsius = True):
     if is_celsius:
-        is_freezing = tempature < 0
+        is_freezing = temperature < 0
     else:
-        is_freezing = tempature < 32
+        is_freezing = temperature < 32
         
     if is_freezing or weather == "snowy":
         return True
