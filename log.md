@@ -236,7 +236,8 @@ def snowed_in(temperature, weather, is_celsius = True):
 
 Also, the reason for me taking this course is to strength my application to GaTech's Master of Science in Analytics program. After I finish up the the Intro to Python Programming certificate I will submit my application! Today I even looked into the courses and created a course schedule. (I really brought this up just because I wanted to see how to add an image in markdown.)
 
-![Alt text](https://imgur.com/a/AhBPfXB)
+![](https://i.imgur.com/Cnb1dY9.jpg)
 
 **Links**
 - [Python String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+---
