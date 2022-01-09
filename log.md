@@ -192,7 +192,7 @@ Below are some other resources/articles that I checked out today.
 - [FCC Relation DB Course](https://www.freecodecamp.org/news/how-to-run-freecodecamps-relational-databases-curriculum-using-docker-vscode-and-coderoad/)
 - [FCC's future which is awesome](https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/)
 ---
-### Day 5: Friday January 7th - Web Development, htmx & APIs 🕸️
+### Day 5: Friday January 7th - Web Development, htmx & APIs 🕸️ 
 
 **Progress**: Lots of progress was made on day 5. I dipped my toes into learning more about how the web works & other concepts such as APIs & htmx. I will think some of the resources and tutorials I started today. 
 
@@ -213,4 +213,30 @@ Lastly, while I was researching about web development the term API was coming up
 - [htmx - Clean, Dynamic HTML pages](https://www.youtube.com/watch?v=4wjqsPtj2QY)
 - [Dynamic HTML with htmx](https://devmode.fm/episodes/dynamic-html-with-htmx#2318)
 - [RESTful APIs in 100 seconds](https://www.youtube.com/watch?v=-MTSQjw5DrM&t=176s)
+---
+### Day 6: Saturday January 8th - Python Functions ➕
 
+**Progress**: Completed chapter 3.4 for the Intro to Python Programming on functions.
+
+**Thoughts**: This was a really helpful chapter for me because functions are one thing I've struggled implementing in my programs. I find the using functions helps with DRY code. Below is an example of one of the problems I had to solve. 
+
+```python 
+#3.4.6 Coding Exercise 1
+def snowed_in(tempature, weather, is_celsius = True):
+    if is_celsius:
+        is_freezing = tempature < 0
+    else:
+        is_freezing = tempature < 32
+        
+    if is_freezing or weather == "snowy":
+        return True
+    else:
+        return False
+```
+
+Also, the reason for me taking this course is to strength my application to GaTech's Master of Science in Analytics program. After I finish up the the Intro to Python Programming certificate I will submit my application! Today I even looked into the courses and created a course schedule. (I really brought this up just because I wanted to see how to add an image in markdown.)
+
+![Alt text](https://imgur.com/a/AhBPfXB)
+
+**Links**
+- [Python String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
