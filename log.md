@@ -241,3 +241,10 @@ Also, the reason for me taking this course is to strength my application to GaTe
 **Links**
 - [Python String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 ---
+### Day 7: Sunday January 9th - More Python Functions 
+
+**Progress**: Worked on the problem set for chapter 3.4 functions. 
+
+**Thoughts**: I completed the chapter yesterday but at the end of every chapter there is a problem set with about 25 questions. Half of them are coding, the other half is multiple choice or fill in the blank. So far I have been impressed the course. 
+
+---
