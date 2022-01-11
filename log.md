@@ -248,3 +248,21 @@ Also, the reason for me taking this course is to strength my application to GaTe
 **Thoughts**: I completed the chapter yesterday but at the end of every chapter there is a problem set with about 25 questions. Half of them are coding, the other half is multiple choice or fill in the blank. So far I have been impressed the course. 
 
 ---
+### Day 8: Monday January 10th - Error Handling
+
+**Progress**: Made some progress on chapter 3.5 Error handling. 
+
+```python 
+try:
+    print(10/mystery_value)
+except ZeroDivisionError:
+    print("Can't divide by zero")
+except:
+    print("Not possible")
+
+```
+
+**Thoughts**: I can see how important error handling can be when writing a program. You never want the user to see the program crash so if you can anticipate errors ahead of time and have a plan for them it's going to make the user experience a lot better. Standard format for error handling is ```Try-Catch-Finally``` python uses ```Try-Except-Else```
+
+---
+
