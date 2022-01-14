@@ -262,7 +262,7 @@ except:
 
 ```
 
-**Thoughts**: I can see how important error handling can be when writing a program. You never want the user to see the program crash so if you can anticipate errors ahead of time and have a plan for them it's going to make the user experience a lot better. Standard format for error handling is ```Try-Catch-Finally``` python uses ```Try-Except-Else```
+**Thoughts**: I can see how important error handling can be when writing a program. You never want the user to see the program crash so if you can anticipate errors ahead of time and have a plan for them it's going to make the user experience a lot better. Standard format for error handling is ```Try-Catch-Finally``` python uses ```Try-Except-Else-Finally```
 
 ---
-
+### Day 9: Monday January 11th - Error Handling C ont.
