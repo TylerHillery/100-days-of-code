@@ -265,4 +265,27 @@ except:
 **Thoughts**: I can see how important error handling can be when writing a program. You never want the user to see the program crash so if you can anticipate errors ahead of time and have a plan for them it's going to make the user experience a lot better. Standard format for error handling is ```Try-Catch-Finally``` python uses ```Try-Except-Else-Finally```
 
 ---
-### Day 9: Monday January 11th - Error Handling C ont.
+### Day 9: Tuesday January 11th - Day 14: Sunday January 16th 
+
+I know it has been awhile since I updated my log.md but I promise I still have been coding. The reason I haven't had the time to update the log is actually because of coding & I am excited to share what I have been working on. 
+
+**Progress**: 
+### **I launched my personal website 🌐**.
+This has been something I wanted to do for so long now. It was also one of my 2022 new years resolutions & I am excited to say it's live. So please check out [www.tylerhillery.com](https://www.tylerhillery.com) & let me know what you think! 
+
+There are a few reasons I wanted to build this website. 
+
+1. Creating the website itself was a great way to improve upon my Python, Git, Markdown, HTML & CSS skills. 
+2. A place where I can showcase future projects.
+3. Somewhere where I can write about what I am learning, my thoughts on the data landscape. 
+4. Post tutorials & other learning resources. 
+
+I used Pelican a static site generator to help build the site. The website is also based on the Flex theme with some custom CSS of my own. You can checkout the repo for the website [here](https://github.com/TylerHillery/TylerHillery.github.io).
+
+I can't express enough how important project are in developing technical skills. i highly recommend when you get a base foundation in whatever skill your learning to put it to the test & build *something*. You may struggle, I sure did, but that's okay! Those are the times that really help develope those skills. 
+
+Also, I completed [Computing in Python II: Control Structures](https://www.edx.org/course/computing-in-python-ii-control-structures) in the [Intro to Python Programming Certificate](https://www.edx.org/professional-certificate/introduction-to-python-programming?index=product&queryID=338370f2779087494d5e00a23e8e47ac&position=2). I hoping to finish this certificate shortly so I can officially submit my graduate application. 
+
+<img src="https://imgur.com/61smhlO" width="400"/>
+
+___
