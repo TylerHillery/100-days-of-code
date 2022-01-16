@@ -288,4 +288,5 @@ Also, I completed [Computing in Python II: Control Structures](https://www.edx.o
 
 <img src="https://i.imgur.com/61smhlO.jpg" width="400"/>
 
+[View Certificate](https://courses.edx.org/certificates/f0a3858493c347d494ff1bcf5a900283)
 ___
