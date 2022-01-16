@@ -286,6 +286,6 @@ I can't express enough how important project are in developing technical skills.
 
 Also, I completed [Computing in Python II: Control Structures](https://www.edx.org/course/computing-in-python-ii-control-structures) in the [Intro to Python Programming Certificate](https://www.edx.org/professional-certificate/introduction-to-python-programming?index=product&queryID=338370f2779087494d5e00a23e8e47ac&position=2). I hoping to finish this certificate shortly so I can officially submit my graduate application. 
 
-<img src="https://imgur.com/61smhlO" width="400"/>
+<img src="https://i.imgur.com/61smhlO.jpg" width="400"/>
 
 ___
