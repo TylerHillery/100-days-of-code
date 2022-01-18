@@ -290,3 +290,31 @@ Also, I completed [Computing in Python II: Control Structures](https://www.edx.o
 
 [View Certificate](https://courses.edx.org/certificates/f0a3858493c347d494ff1bcf5a900283)
 ___
+Day 15: Monday January 17th - Python Data Structures 🐍
+
+**Progress**: I started the [Computing in Python III: Data Structures](https://www.edx.org/course/computing-in-python-iii-data-structures) course on edX. The 3rd course in the Introduction to Python Programming Certificate. Completed Chapter 4.1: Data Structures & I am almost done with Chapter 4.2 Strings.
+
+**Thoughts**: Understanding Python data structures is crucial aspect of learning how to program in python. I learned the difference between Passing by Value vs Passing by reference.
+
+By Value: Computer is unaware of where that data is stored in memory so it cannot change the variable that was passed threw 
+
+By Reference: Computer knows where the variable is stored in memory so it can change the value.
+
+All variables in Python are passed by reference by depending on the mutability of the variable it may appear that python is passing by value. 
+
+Also I learned the that methods in python are functions contained within data types (OOP Everything is an Object!) & are notated by variable.method()
+
+### Strings 
+Strings are a very common data structure you will run into when programming. I learned about string slicing being able to obtain substrings by using squared brackets at the end of a string you can reference a particular index or range. There other valuable string methods like  
+
+- .find()
+- .count()
+- .lower()
+- .upper()
+- .title()
+- .strip()
+- .replace(' ','')
+- .split()
+- .join()
+
+___
