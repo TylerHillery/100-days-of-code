@@ -290,7 +290,7 @@ Also, I completed [Computing in Python II: Control Structures](https://www.edx.o
 
 [View Certificate](https://courses.edx.org/certificates/f0a3858493c347d494ff1bcf5a900283)
 ___
-Day 15: Monday January 17th - Python Data Structures 🐍
+### Day 15: Monday January 17th - Python Data Structures 🐍
 
 **Progress**: I started the [Computing in Python III: Data Structures](https://www.edx.org/course/computing-in-python-iii-data-structures) course on edX. The 3rd course in the Introduction to Python Programming Certificate. Completed Chapter 4.1: Data Structures & I am almost done with Chapter 4.2 Strings.
 
@@ -317,4 +317,24 @@ Strings are a very common data structure you will run into when programming. I l
 - .split()
 - .join()
 
+___
+
+### Day 16: Monday January 18th - Python Data Structures Continued 🐍
+
+**Progress**: I am still making my way through the Problem Set for Chapter 4.2: Strings. I did about 10 coding problems.
+
+```python
+#Coding Problem 4.2.13 Problem I am currently working on! Not yet finished
+def find_color(a_string):
+    lst = a_string[a_string.find('(')+1:a_string.find(')')].split(',')
+    r = int(lst[0].strip())
+    g = int(lst[1].strip())
+    b = int(lst[2].strip())
+   
+    if r > g and r > b:
+        return 'red'
+    elif g > r and g > g:
+        return 'green'
+    
+```
 ___
