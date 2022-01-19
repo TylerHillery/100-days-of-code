@@ -304,7 +304,7 @@ All variables in Python are passed by reference by depending on the mutability o
 
 Also I learned the that methods in python are functions contained within data types (OOP Everything is an Object!) & are notated by variable.method()
 
-### Strings 
+**Strings**
 Strings are a very common data structure you will run into when programming. I learned about string slicing being able to obtain substrings by using squared brackets at the end of a string you can reference a particular index or range. There other valuable string methods like  
 
 - .find()
