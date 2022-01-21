@@ -320,7 +320,7 @@ Strings are a very common data structure you will run into when programming. I l
 
 ___
 
-### Day 16: Monday January 18th - Python Data Structures Continued 🐍
+### Day 16: Tuesday January 18th - Python Data Structures Continued 🐍
 
 **Progress**: I am still making my way through the Problem Set for Chapter 4.2: Strings. I did about 10 coding problems.
 
@@ -338,4 +338,80 @@ def find_color(a_string):
         return 'green'
     
 ```
+___
+
+### Day 17: Wednesday January 19th - Python Data Structures
+
+**Progress**: I finished the 4.2 problem set on strings. 
+
+**Thoughts**: I have been really learning a lot from this course. One thing I really enjoy is being able to compare my solution to the sample answers provided. One of my main struggles with programming is that they are so many ways to go about solving a problem. It's nice to see different ways to approach a problem. Here is an example:
+
+```python 
+#Coding Problem 4.2.16 My Solution
+def replace_all(target,find,replace):
+    count = target.count(find)
+    i = 0
+    while i < count:
+        start = target.find(find) 
+        
+        target = target[:start] + replace + target[start + len(find):]     
+                
+        i += 1  
+    
+    return target
+
+#Sample answer, I completely forgot you can specify the split parameter
+def replace_all(target_string, find_string, replace_string):
+    remaining_strings = target_string.split(find_string)
+
+    result_string = replace_string.join(remaining_strings)
+    
+    return result_string
+```
+___
+
+### Day 18: Thursday January 20th - Python Data Structures Tuples & Lists
+
+**Progress**: I finished the Chapter 4.3 Lists (still have to do the problem set).
+
+**Thoughts**: It was interesting to learn about the differences between lists & tuples. The main difference is that lists are mutable and tuples are immutable. Both structures can use slicing with indexes to reference items within the structures. 
+
+lists in python are referenced by []
+tuples are in are referenced by ()
+
+One interesting thing that was new to me is that you can unpack a tuple be have variables assigned to the tuple:
+
+```(item1,item2,item3) = a_tuple[:3]```
+
+Also, one of the main reasons for tuples is when you can only pass one variable back & forth but we really want to pass multiple values. 
+
+One thing to worry about lists being mutable is when you call specific methods on a list, the list itself will be changed. Below are some popular methods for lists.
+```python
+a_list = []
+a_list.sort(reverse = True) #reverse is True is optional
+a_list.append(value) #add value to end of list
+a_list.extend(other_list) #adds list to other list
+a_list.insert(index,value) #insert value at index
+a_list.remove(value) #removes any elements in list equal to value
+a_list.reverse()
+a_list.pop() #removes last element of list and assigns it to a var
+a_list.count(value) #counts how many times value appears in list
+a_list.index(value) #returns index of where value appears
+del a_list[-5:] #deletes last five items of list
+
+#4.3.3 Coding Exercise Example problem I had to solve
+def sort_artists(a_list_of_tupes):
+    artists = []
+    rev = []
+    for tup in a_list_of_tupes:
+        artists.append(tup[0])
+        rev.append(tup[1])
+    artists.sort()
+    rev.sort(reverse = True)           
+    return (artists, rev)
+artists = [("The Beatles", 270.8), ("Elvis Presley", 211.5), ("Michael Jackson", 183.9)]
+print(sort_artists(artists))
+```
+Overall a great lesson! I learned a lot. 
+
 ___
