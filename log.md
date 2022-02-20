@@ -415,3 +415,8 @@ print(sort_artists(artists))
 Overall a great lesson! I learned a lot. 
 
 ___
+
+### I failed 100 Days of Code
+
+**Thoughts**: Coding 1 hours a day was a lot harder than anticipated. I am going to try this challenge again sometime this year but as of right now I have other things in life I need to focus on (Like my new job 😁).
+
